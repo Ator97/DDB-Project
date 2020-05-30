@@ -31,7 +31,7 @@ VersionId,Version_ID,Copyright,Global_User_ID,Row_Time_Stamp
 
 Diagram
 DiagramId,Version_ID,VersionId,LastUpdate,CreateDate,ActiveModel,ActiveSubmodel,VSplitterPosition,X,Y,Width,Height,DiagramNameId,AuthorId,CompanyId,VersionNoId,CopyrightStringId,DefinitionId,UnificationOptionId,FileNameId,CopyrightYearStringId,DiagramName,CodePage,SignatureGUID,ReleaseName,Flags,Global_User_ID,Row_Time_Stamp
-1,1,800,05/26/2020 21:14:57G,05/26/2020 14:38:19G,1,1,180,0,0,0,0,7,8,9,10,9,0,11,7,0,elvbd_s1.dm1,1252,NULL,NULL,0,1,0
+1,1,800,05/26/2020 21:34:38G,05/26/2020 14:38:19G,1,1,180,0,0,0,0,7,8,9,10,9,0,11,7,0,elvbd_s1.dm1,1252,NULL,NULL,0,1,0
 
 Model
 DiagramId,ModelId,Model_ID,ModelType,PlatformId,NamePrefix,SpaceHandling,CaseHandling,GenPrimaryKey,GenAlternateKey,GenInversionEntry,GenForeignKey,Notation,ModelNameId,RowOverhead,TableOverhead,IndexOverhead,BlobOverhead,BlobBlockSize,Global_User_ID,Row_Time_Stamp
@@ -283,7 +283,7 @@ DiagramId,ModelId,SubmodelId,PropertyId,ColorDefault_ID,ColorProperty_ID,Submode
 
 Entity
 DiagramId,ModelId,EntityId,Entity_ID,Model_ID,EntityNameId,TableNameId,DefinitionId,NoteId,OwnerId,EntityTypeId,Flags,DataWhseSettings,NSTFlag,CompareFlags,PhysicalCompareFlags,Global_User_ID,Row_Time_Stamp
-1,1,13,13,1,91,91,0,0,0,0,0,0,0,0,0,296,0
+1,1,13,13,1,92,92,0,0,0,0,0,0,0,0,0,296,0
 1,1,14,14,1,81,81,0,0,0,0,0,0,0,0,0,297,0
 1,1,15,15,1,89,89,0,0,0,0,0,0,0,0,0,298,0
 1,1,16,16,1,87,87,0,0,0,0,0,0,0,0,0,299,0
@@ -685,7 +685,7 @@ String_Id,Data,Overflow,ConstantString,Row_Time_Stamp
 88,TIPO_TARJETA_VIDEO_R_ELV_S1,0,0,0
 89,TIPO_ALMACENAMIENTO_R_ELV_S1,0,0,0
 90,TIPO_MONITOR_R_ELV_S1,0,0,0
-91,SUCURSAL,0,0,0
+92,SUCURSAL_F1_ELV_S1,0,0,0
 
 LargeString
 String_Id,Data,Row_Time_Stamp
@@ -880,8 +880,8 @@ StringUsage_Id,UniqueObject_Id,StringUsageType_Id,String_Id,Row_Time_Stamp
 469,414,39,72,0
 470,416,39,73,0
 471,418,39,74,0
-243,296,1,91,0
-244,296,2,91,0
+243,296,1,92,0
+244,296,2,92,0
 245,297,1,81,0
 246,297,2,81,0
 247,298,1,89,0
@@ -1189,7 +1189,7 @@ Identity_Value_ID,Table_Name,Column_Name,Next_Valid_Value,Global_User_ID,Row_Tim
 14,Bound_Dictionary_Object,Bound_Dictionary_Object_ID,1,0,0
 15,CheckConstraints,CheckConstraints_ID,1,0,0
 16,Circular_Layout,Circular_Layout_ID,2,0,0
-17,ColorDefault,ColorDefault_ID,60,0,0
+17,ColorDefault,ColorDefault_ID,61,0,0
 18,Column_Usage,Column_Usage_ID,1,0,0
 19,Components_Layout,Components_Layout_ID,2,0,0
 20,Configuration_Option,Configuration_Option_ID,1,0,0
