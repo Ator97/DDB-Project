@@ -44,7 +44,7 @@ delete from tipo_procesador;
     dbms_output.put_line(to_char(sysdate,v_formato)
     || ' Eliminando datos de tipo_tarjeta_video');
 delete from tipo_tarjeta_video;
-    dbms_output.put_line(to_char(sysdate,v_formato)
+    dbms_outpwhaut.put_line(to_char(sysdate,v_formato)
     || ' Eliminando datos de status_laptop');
 delete from status_laptop;
 
